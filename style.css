@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif; /* Utilise une police propre et simple */
+}
+
+header {
+    background-color: #333; /* Couleur de fond de l'en-tête */
+    color: white; /* Couleur du texte dans l'en-tête */
+    height: 30px;
+}
+
+.navbar {
+    display: flex; /* Affiche les éléments de navigation en ligne */
+    justify-content: center; /* Répartit uniformément l'espace entre les éléments */
+    align-items: center;
+}
+
+.nav-element {
+    height: 100%;
+    width: 25%;
+    text-align: center;
+}
+
+.nav-element:hover {
+    background-color: #555; /* Changement de couleur de fond au survol */
+    cursor: pointer; /* Change le curseur en pointeur pour indiquer un lien cliquable */
+}
