@@ -1,28 +1,33 @@
 body {
-    font-family: Arial, sans-serif; /* Utilise une police propre et simple */
+    font-family: Arial, sans-serif; 
 }
 
 header {
-    background-color: #333; /* Couleur de fond de l'en-tête */
-    color: white; /* Couleur du texte dans l'en-tête */
-    height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .navbar {
-    display: flex; /* Affiche les éléments de navigation en ligne */
-    justify-content: center; /* Répartit uniformément l'espace entre les éléments */
-    align-items: center;
+    margin-top: 100px;
+    display: flex;
+    height: 4vh;
+    width: 50%;
+    background-color: #333;
+    color: white;
 }
 
 .nav-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 25%;
-    text-align: center;
 }
 
 .nav-element:hover {
-    background-color: #555; /* Changement de couleur de fond au survol */
-    cursor: pointer; /* Change le curseur en pointeur pour indiquer un lien cliquable */
+    background-color: #555;
+    font-size: 1.1em;
+    cursor: pointer;
 }
 
-CECI EST UN TEST
