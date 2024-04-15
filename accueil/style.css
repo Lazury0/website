@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif; 
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    display: block; /* Assure que l'image ne prend que l'espace nécessaire */
+    margin: 0 auto; /* Centre l'image horizontalement */
+    max-width: 7em; /* Assure que l'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Garde l'aspect ratio de l'image */
+    cursor: pointer;
+}
+.fill {
+    position: absolute;
+    top: 3.3%; /* Ajustement fin pour le remplissage */
+    left: 49.1%;
+    width: 35px; /* Largeur du remplissage */
+    height: 35px;
+    background: rgb(14, 13, 13); /* Couleur de remplissage */
+    z-index: 0;
+    transform: rotate(45deg);
+  }
+
+  .fill:hover {
+    background-color: red;
+    transform: scale(2);
+
+  }
+.navbar {
+    margin-top: 20px;
+    display: flex;
+    height: 4vh;
+    width: 50%;
+    background-color: #333;
+    color: white;
+    transition: all 0.3s; 
+}
+
+.nav-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1; 
+    transition: flex 0.3s; 
+}
+
+.nav-element:hover {
+    background-color: #555;
+    flex-grow: 1.5; 
+    cursor: pointer;
+}
